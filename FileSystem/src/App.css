@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.current-path {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.main-container {
+  display: flex;
+  gap: 20px;
+  height: 70vh;
+}
+
+.explorer-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  background-color: #ff4444;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
